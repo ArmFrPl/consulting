@@ -120,14 +120,11 @@ function App() {
                   {/* Start counter */}
                   <div className="col-lg-3 col-md-6 col-xs-12">
                     <div className="counter-box wow fadeInUp" data-wow-delay="0.2s">
-                      <div className="icon-o">
-                        <i className="lni-users" />
-                      </div>
                       <div className="fact-count">
                         <h3>
                           <span className="counter">23576</span>
                         </h3>
-                        <p>Users</p>
+                        <p>&#8470; КОНСУЛЬТАЦИИ</p>
                       </div>
                     </div>
                   </div>
@@ -135,14 +132,11 @@ function App() {
                   {/* Start counter */}
                   <div className="col-lg-3 col-md-6 col-xs-12">
                     <div className="counter-box wow fadeInUp" data-wow-delay="0.4s">
-                      <div className="icon-o">
-                        <i className="lni-emoji-smile" />
-                      </div>
                       <div className="fact-count">
                         <h3>
                           <span className="counter">2124</span>
                         </h3>
-                        <p>Positive Reviews</p>
+                        <p>% ПОСТУПЛЕНИИ</p>
                       </div>
                     </div>
                   </div>
@@ -150,29 +144,11 @@ function App() {
                   {/* Start counter */}
                   <div className="col-lg-3 col-md-6 col-xs-12">
                     <div className="counter-box wow fadeInUp" data-wow-delay="0.6s">
-                      <div className="icon-o">
-                        <i className="lni-download" />
-                      </div>
                       <div className="fact-count">
                         <h3>
                           <span className="counter">54598</span>
                         </h3>
-                        <p>Downloads</p>
-                      </div>
-                    </div>
-                  </div>
-                  {/* End counter */}
-                  {/* Start counter */}
-                  <div className="col-lg-3 col-md-6 col-xs-12">
-                    <div className="counter-box wow fadeInUp" data-wow-delay="0.8s">
-                      <div className="icon-o">
-                        <i className="lni-thumbs-up" />
-                      </div>
-                      <div className="fact-count">
-                        <h3>
-                          <span className="counter">3212</span>
-                        </h3>
-                        <p>Followers</p>
+                        <p>ПАРТНЕРОВ</p>
                       </div>
                     </div>
                   </div>
