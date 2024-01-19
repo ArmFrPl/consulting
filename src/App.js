@@ -134,7 +134,7 @@ function App() {
                     <div className="counter-box wow fadeInUp" data-wow-delay="0.4s">
                       <div className="fact-count">
                         <h3>
-                          <span className="counter">2124</span>
+                          <span className="counter">95</span>
                         </h3>
                         <p>% ПОСТУПЛЕНИИ</p>
                       </div>
@@ -146,7 +146,7 @@ function App() {
                     <div className="counter-box wow fadeInUp" data-wow-delay="0.6s">
                       <div className="fact-count">
                         <h3>
-                          <span className="counter">54598</span>
+                          <span className="counter">6593</span>
                         </h3>
                         <p>ПАРТНЕРОВ</p>
                       </div>
