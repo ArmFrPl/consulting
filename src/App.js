@@ -84,7 +84,7 @@ function App() {
             <div className="container">
               <div className="row">
                 <div className="col-md-12 col-sm-12">
-                  <div className="contents text-center">
+                  <div className="contents ">
                     <h2 className="head-title wow fadeInUp">
                       КОНСУЛЬТАЦИИ ПО ПОСТУПЛЕНИЮ <br/>ЗА ГРАНИЦУ
                     </h2>
@@ -98,7 +98,7 @@ function App() {
                     </div>
                   </div>
                   <div
-                    className="img-thumb text-center wow fadeInUp"
+                    className="img-thumb wow fadeInUp"
                     data-wow-delay="0.8s"
                   >
                     <img className="img-fluid" src="assets/img/hero-1.png" alt="" />

@@ -301,6 +301,10 @@ a.back-to-top:hover, a.back-to-top:focus {
   }
 }
 
+#counter.section-padding{
+  padding: 30px 0;
+}
+
 .section-padding {
   padding: 60px 0;
 }
@@ -460,6 +464,9 @@ hr {
 
 .skills-section .progress .progress-bar {
   background: #3d60f4;
+}
+.navbar{
+  height: 80px;
 }
 
 .navbar-brand {
@@ -656,14 +663,28 @@ hr {
 3. Hero Area
 ========================================================================== */
 #hero-area {
+  height: 567px;
   color: #fff;
   overflow: hidden;
   position: relative;
   background: url(../img/hero-bg.png);
 }
+@media (min-width: 1200px) {
+  .container{
+    min-width: 1250px;
+  }
+}
 
 #hero-area .contents {
   padding: 170px 0px 50px;
+  text-align: left;
+  position: relative;
+  z-index: 99;
+}
+#hero-area .img-thumb {
+  text-align: right;
+  position: relative;
+  bottom: 300px;
 }
 
 #hero-area .contents .head-title {
