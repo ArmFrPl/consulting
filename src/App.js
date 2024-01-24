@@ -35,13 +35,13 @@ function App() {
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#services">
-                      Services
+                    <a className="nav-link" href="#team">
+                      Team
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#team">
-                      Team
+                    <a className="nav-link" href="#services">
+                      Services
                     </a>
                   </li>
                   <li className="nav-item">
@@ -252,6 +252,206 @@ function App() {
           </div>
         </section>
         {/* End Video Promo Section */}
+        {/* Team Section Start */}
+        <section id="team" className="section-padding text-center">
+          <div className="container">
+            <div className="section-header text-center">
+              <h2 className="section-title wow fadeInDown" data-wow-delay="0.3s">
+                Наши преподаватели
+              </h2>
+              <p>
+                Наша команда состоит из опытных и квалифицированных специалистов, <br/>которые помогут на вашем пути к поступлению!
+              </p>
+            </div>
+            <div className="row">
+              <div className="col-sm-6 col-md-6 col-lg-3">
+                {/* Team Item Starts */}
+                <div
+                  className="team-item text-center wow fadeInRight"
+                  data-wow-delay="0.3s"
+                >
+                  <div className="team-img">
+                    <img
+                      className="img-fluid"
+                      src="assets/img/team/team-01.png"
+                      alt=""
+                    />
+                    <div className="team-overlay">
+                      <div className="overlay-social-icon text-center">
+                        <ul className="social-icons">
+                          <li>
+                            <a href="#">
+                              <i className="lni-facebook-filled" aria-hidden="true" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i className="lni-twitter-filled" aria-hidden="true" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i
+                                className="lni-instagram-filled"
+                                aria-hidden="true"
+                              />
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="info-text">
+                    <h3>
+                      <a href="#">Александр Величко</a>
+                    </h3>
+                    <p>Гвиден консул</p>
+                  </div>
+                </div>
+                {/* Team Item Ends */}
+              </div>
+              <div className="col-sm-6 col-md-6 col-lg-3">
+                {/* Team Item Starts */}
+                <div
+                  className="team-item text-center wow fadeInRight"
+                  data-wow-delay="0.6s"
+                >
+                  <div className="team-img">
+                    <img
+                      className="img-fluid"
+                      src="assets/img/team/team-02.png"
+                      alt=""
+                    />
+                    <div className="team-overlay">
+                      <div className="overlay-social-icon text-center">
+                        <ul className="social-icons">
+                          <li>
+                            <a href="#">
+                              <i className="lni-facebook-filled" aria-hidden="true" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i className="lni-twitter-filled" aria-hidden="true" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i
+                                className="lni-instagram-filled"
+                                aria-hidden="true"
+                              />
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="info-text">
+                    <h3>
+                      <a href="#">Имя Отчество</a>
+                    </h3>
+                    <p>Психолог</p>
+                  </div>
+                </div>
+                {/* Team Item Ends */}
+              </div>
+              <div className="col-sm-6 col-md-6 col-lg-3">
+                {/* Team Item Starts */}
+                <div
+                  className="team-item text-center wow fadeInRight"
+                  data-wow-delay="0.9s"
+                >
+                  <div className="team-img">
+                    <img
+                      className="img-fluid"
+                      src="assets/img/team/team-03.png"
+                      alt=""
+                    />
+                    <div className="team-overlay">
+                      <div className="overlay-social-icon text-center">
+                        <ul className="social-icons">
+                          <li>
+                            <a href="#">
+                              <i className="lni-facebook-filled" aria-hidden="true" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i className="lni-twitter-filled" aria-hidden="true" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i
+                                className="lni-instagram-filled"
+                                aria-hidden="true"
+                              />
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="info-text">
+                    <h3>
+                      <a href="#">Азявчикова Мария</a>
+                    </h3>
+                    <p>Преподаватель</p>
+                  </div>
+                </div>
+                {/* Team Item Ends */}
+              </div>
+              <div className="col-sm-6 col-md-6 col-lg-3">
+                {/* Team Item Starts */}
+                <div
+                  className="team-item text-center wow fadeInRight"
+                  data-wow-delay="1.2s"
+                >
+                  <div className="team-img">
+                    <img
+                      className="img-fluid"
+                      src="assets/img/team/team-04.png"
+                      alt=""
+                    />
+                    <div className="team-overlay">
+                      <div className="overlay-social-icon text-center">
+                        <ul className="social-icons">
+                          <li>
+                            <a href="#">
+                              <i className="lni-facebook-filled" aria-hidden="true" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i className="lni-twitter-filled" aria-hidden="true" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i
+                                className="lni-instagram-filled"
+                                aria-hidden="true"
+                              />
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="info-text">
+                    <h3>
+                      <a href="#">Павел Величко</a>
+                    </h3>
+                    <p>Уборщик</p>
+                  </div>
+                </div>
+                {/* Team Item Ends */}
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* Team Section End */}
         {/* Services Section Start */}
         <section id="services" className="section-padding bg-gray">
           <div className="container">
@@ -377,207 +577,6 @@ function App() {
           </div>
         </section>
         {/* Services Section End */}
-        {/* Team Section Start */}
-        <section id="team" className="section-padding text-center">
-          <div className="container">
-            <div className="section-header text-center">
-              <h2 className="section-title wow fadeInDown" data-wow-delay="0.3s">
-                Meet our team
-              </h2>
-              <p>
-                A desire to help and empower others between community contributors in
-                technology <br /> began to grow in 2020.
-              </p>
-            </div>
-            <div className="row">
-              <div className="col-sm-6 col-md-6 col-lg-3">
-                {/* Team Item Starts */}
-                <div
-                  className="team-item text-center wow fadeInRight"
-                  data-wow-delay="0.3s"
-                >
-                  <div className="team-img">
-                    <img
-                      className="img-fluid"
-                      src="assets/img/team/team-01.png"
-                      alt=""
-                    />
-                    <div className="team-overlay">
-                      <div className="overlay-social-icon text-center">
-                        <ul className="social-icons">
-                          <li>
-                            <a href="#">
-                              <i className="lni-facebook-filled" aria-hidden="true" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <i className="lni-twitter-filled" aria-hidden="true" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <i
-                                className="lni-instagram-filled"
-                                aria-hidden="true"
-                              />
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="info-text">
-                    <h3>
-                      <a href="#">David Smith</a>
-                    </h3>
-                    <p>Chief Operating Officer</p>
-                  </div>
-                </div>
-                {/* Team Item Ends */}
-              </div>
-              <div className="col-sm-6 col-md-6 col-lg-3">
-                {/* Team Item Starts */}
-                <div
-                  className="team-item text-center wow fadeInRight"
-                  data-wow-delay="0.6s"
-                >
-                  <div className="team-img">
-                    <img
-                      className="img-fluid"
-                      src="assets/img/team/team-02.png"
-                      alt=""
-                    />
-                    <div className="team-overlay">
-                      <div className="overlay-social-icon text-center">
-                        <ul className="social-icons">
-                          <li>
-                            <a href="#">
-                              <i className="lni-facebook-filled" aria-hidden="true" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <i className="lni-twitter-filled" aria-hidden="true" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <i
-                                className="lni-instagram-filled"
-                                aria-hidden="true"
-                              />
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="info-text">
-                    <h3>
-                      <a href="#">Eric Peterson</a>
-                    </h3>
-                    <p>Product Designer</p>
-                  </div>
-                </div>
-                {/* Team Item Ends */}
-              </div>
-              <div className="col-sm-6 col-md-6 col-lg-3">
-                {/* Team Item Starts */}
-                <div
-                  className="team-item text-center wow fadeInRight"
-                  data-wow-delay="0.9s"
-                >
-                  <div className="team-img">
-                    <img
-                      className="img-fluid"
-                      src="assets/img/team/team-03.png"
-                      alt=""
-                    />
-                    <div className="team-overlay">
-                      <div className="overlay-social-icon text-center">
-                        <ul className="social-icons">
-                          <li>
-                            <a href="#">
-                              <i className="lni-facebook-filled" aria-hidden="true" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <i className="lni-twitter-filled" aria-hidden="true" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <i
-                                className="lni-instagram-filled"
-                                aria-hidden="true"
-                              />
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="info-text">
-                    <h3>
-                      <a href="#">Durwin Babb</a>
-                    </h3>
-                    <p>Lead Designer</p>
-                  </div>
-                </div>
-                {/* Team Item Ends */}
-              </div>
-              <div className="col-sm-6 col-md-6 col-lg-3">
-                {/* Team Item Starts */}
-                <div
-                  className="team-item text-center wow fadeInRight"
-                  data-wow-delay="1.2s"
-                >
-                  <div className="team-img">
-                    <img
-                      className="img-fluid"
-                      src="assets/img/team/team-04.png"
-                      alt=""
-                    />
-                    <div className="team-overlay">
-                      <div className="overlay-social-icon text-center">
-                        <ul className="social-icons">
-                          <li>
-                            <a href="#">
-                              <i className="lni-facebook-filled" aria-hidden="true" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <i className="lni-twitter-filled" aria-hidden="true" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <i
-                                className="lni-instagram-filled"
-                                aria-hidden="true"
-                              />
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="info-text">
-                    <h3>
-                      <a href="#">Marijn Otte</a>
-                    </h3>
-                    <p>Front-end Developer</p>
-                  </div>
-                </div>
-                {/* Team Item Ends */}
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* Team Section End */}
         {/* Pricing section Start */}
         <section id="pricing" className="section-padding bg-gray">
           <div className="container">
