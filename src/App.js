@@ -1,5 +1,3 @@
-import './App.css';
-
 function App() {
   return (
     <div className="App">
@@ -121,10 +119,8 @@ function App() {
                   <div className="col-lg-3 col-md-6 col-xs-12">
                     <div className="counter-box wow fadeInUp" data-wow-delay="0.2s">
                       <div className="fact-count">
-                        <h3>
-                          <span className="counter">23576</span>
-                        </h3>
-                        <p>&#8470; КОНСУЛЬТАЦИИ</p>
+                        <h3>9567</h3>
+                        <p>КОНСУЛЬТАЦИЙ</p>
                       </div>
                     </div>
                   </div>
@@ -133,10 +129,8 @@ function App() {
                   <div className="col-lg-3 col-md-6 col-xs-12">
                     <div className="counter-box wow fadeInUp" data-wow-delay="0.4s">
                       <div className="fact-count">
-                        <h3>
-                          <span className="counter">95</span>
-                        </h3>
-                        <p>% ПОСТУПЛЕНИИ</p>
+                        <h3>95 %</h3>
+                        <p>ПОСТУПЛЕНИЙ</p>
                       </div>
                     </div>
                   </div>
@@ -145,9 +139,7 @@ function App() {
                   <div className="col-lg-3 col-md-6 col-xs-12">
                     <div className="counter-box wow fadeInUp" data-wow-delay="0.6s">
                       <div className="fact-count">
-                        <h3>
-                          <span className="counter">6593</span>
-                        </h3>
+                        <h3>593</h3>
                         <p>ПАРТНЕРОВ</p>
                       </div>
                     </div>
@@ -167,15 +159,13 @@ function App() {
                 <div className="text-wrapper">
                   <div>
                     <h2 className="title-hl wow fadeInLeft" data-wow-delay="0.3s">
-                      We are helping to grow <br /> your business.
+                      От желания к поступлению
                     </h2>
-                    <p className="mb-4">
-                      A digital studio specialising in User Experience &amp;
-                      eCommerce, we combine innovation with digital craftsmanship to
-                      help brands fulfill their potential.
+                    <p className="mb-4 subtext">
+                      Пройдя серию консультаций и тестирование, мы подберем <br/> идеальный университет именно для Вас!
                     </p>
                     <a href="#" className="btn btn-common">
-                      More About Us
+                      Записаться!
                     </a>
                   </div>
                 </div>
@@ -188,13 +178,12 @@ function App() {
                     data-wow-delay="300ms"
                   >
                     <div className="icon">
-                      <i className="lni-microphone" />
+                      1
                     </div>
                     <div className="feature-content">
-                      <h3>What we do</h3>
+                      <h3>Личная консультация</h3>
                       <p>
-                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                        odit aut fugit, sed quia con- sequuntur magni dolores{" "}
+                        Первая профориентационная встреча, на которой мы познакомимся, узнаем ваши сильные стороны и пожелания по поступлению{" "}
                       </p>
                     </div>
                   </div>
@@ -204,13 +193,12 @@ function App() {
                     data-wow-delay="500ms"
                   >
                     <div className="icon">
-                      <i className="lni-users" />
+                      2
                     </div>
                     <div className="feature-content">
-                      <h3>Meet our team</h3>
+                      <h3>Тестирование</h3>
                       <p>
-                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                        odit aut fugit, sed quia con- sequuntur magni dolores{" "}
+                        Мы проведем для вас индивидуальное тестирование по профильным предметам, чтобы определить текущий уровень подготовки, и что еще необходимо сделать для поступления в желаемый университет{" "}
                       </p>
                     </div>
                   </div>
@@ -220,13 +208,12 @@ function App() {
                     data-wow-delay="700ms"
                   >
                     <div className="icon">
-                      <i className="lni-medall-alt" />
+                      3
                     </div>
                     <div className="feature-content">
-                      <h3>Our Creation</h3>
+                      <h3>Результаты</h3>
                       <p>
-                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                        odit aut fugit, sed quia con- sequuntur magni dolores{" "}
+                        На финальной встрече, мы предоставим вам полный анализ ваших <br/>результатов и short-list из университетов, подходящих вашим интересам <br/>и желаниям, условия поступления и список необходимых документов{" "}
                       </p>
                     </div>
                   </div>
@@ -236,6 +223,35 @@ function App() {
           </div>
         </div>
         {/* Feature Section End */}
+        {/* Start Video promo Section */}
+        <section className="video-promo section-padding">
+          <div className="overlay" />
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12 col-sm-12">
+                <div
+                  className="video-promo-content text-center wow fadeInUp"
+                  data-wow-delay="0.3s"
+                >
+                  <a
+                    href="https://www.youtube.com/watch?v=yP6kdOZHids"
+                    className="video-popup"
+                  >
+                    <i className="lni-film-play" />
+                  </a>
+                  <h2
+                    className="mt-3 wow zoomIn"
+                    data-wow-duration="1000ms"
+                    data-wow-delay="100ms"
+                  >
+                    Watch Video
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* End Video Promo Section */}
         {/* Services Section Start */}
         <section id="services" className="section-padding bg-gray">
           <div className="container">
@@ -361,35 +377,6 @@ function App() {
           </div>
         </section>
         {/* Services Section End */}
-        {/* Start Video promo Section */}
-        <section className="video-promo section-padding">
-          <div className="overlay" />
-          <div className="container">
-            <div className="row">
-              <div className="col-md-12 col-sm-12">
-                <div
-                  className="video-promo-content text-center wow fadeInUp"
-                  data-wow-delay="0.3s"
-                >
-                  <a
-                    href="https://www.youtube.com/watch?v=yP6kdOZHids"
-                    className="video-popup"
-                  >
-                    <i className="lni-film-play" />
-                  </a>
-                  <h2
-                    className="mt-3 wow zoomIn"
-                    data-wow-duration="1000ms"
-                    data-wow-delay="100ms"
-                  >
-                    Watch Video
-                  </h2>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* End Video Promo Section */}
         {/* Team Section Start */}
         <section id="team" className="section-padding text-center">
           <div className="container">
