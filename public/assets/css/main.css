@@ -671,7 +671,7 @@ hr {
   color: #fff;
   overflow: hidden;
   position: relative;
-  background: url(../img/hero-bg.png);
+  /*background: url(../img/hero-bg.png);*/
 }
 @media (min-width: 1200px) {
   .container{
@@ -688,7 +688,12 @@ hr {
 #hero-area .img-thumb {
   text-align: right;
   position: relative;
-  bottom: 300px;
+  bottom: 380px;
+  right: 80px;
+}
+
+#hero-area .img-thumb > img{
+  width: 25%;
 }
 
 #hero-area .contents .head-title {
@@ -708,6 +713,10 @@ hr {
 }
 
 /* Team Item */
+
+#team .section-header p{
+  color: #797d84;
+}
 .team-item:hover {
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.08);
 }
@@ -956,6 +965,10 @@ hr {
   color: #fff;
 }
 
+#clients .row{
+  align-items: center;
+}
+
 .client-item-wrapper {
   text-align: center;
   padding: 15px;
@@ -993,7 +1006,7 @@ hr {
    Portfolio Section
    ========================================================================== */
 #portfolios {
-  background: #f9f9f9;
+  background: #fff;
 }
 
 #portfolios .mix {
@@ -1122,8 +1135,8 @@ hr {
   padding-top: 25px;
   padding-bottom: 25px;
   background: #3d60f4;
-  border-top-right-radius: 4px;
-  border-top-left-radius: 4px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 #pricing .title h3 {
@@ -1132,11 +1145,19 @@ hr {
   font-size: 18px;
   margin-bottom: 0px;
 }
+#pricing .row{
+  justify-content: center;
+}
+
+#pricing .row > div{
+  flex: 50% 0 0;
+  max-width: 50%;
+}
 
 #pricing .table {
   margin-top: 15px;
   padding-bottom: 30px;
-  border-radius: 4px;
+  border-radius: 10px;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
   -webkit-transition: all .3s linear;
   -moz-transition: all .3s linear;
@@ -1167,8 +1188,8 @@ hr {
   position: relative;
   text-align: center;
   font-weight: 700;
-  padding: 30px 0;
-  border-bottom: 1px solid #f1f1f1;
+  padding: 30px 0 10px 0;
+  /*border-bottom: 1px solid #f1f1f1;*/
 }
 
 #pricing .table .pricing-header .price-value sup {
@@ -1189,10 +1210,10 @@ hr {
 }
 
 #pricing .table .description li {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 400;
-  color: #abacae;
-  padding-bottom: 15px;
+  color: #797d84;
+  padding-bottom: 35px;
 }
 
 #pricing .table:hover {

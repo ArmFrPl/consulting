@@ -26,51 +26,51 @@ function App() {
                 <ul className="navbar-nav mr-auto w-100 justify-content-end clearfix">
                   <li className="nav-item active">
                     <a className="nav-link" href="#hero-area">
-                      Home
+                      Главная
                     </a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="#feature">
-                      Feature
+                      О Нас
                     </a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="#team">
-                      Team
+                      Команда
                     </a>
                   </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#services">
-                      Services
-                    </a>
-                  </li>
+                  {/*<li className="nav-item">*/}
+                  {/*  <a className="nav-link" href="#services">*/}
+                  {/*    Services*/}
+                  {/*  </a>*/}
+                  {/*</li>*/}
                   <li className="nav-item">
                     <a className="nav-link" href="#pricing">
-                      Pricing
+                      Стоимость
                     </a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="#portfolios">
-                      Works
+                      Партнеры
                     </a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="#testimonial">
-                      Testimonial
+                      Отзывы
                     </a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="#blog">
-                      Blog
+                      Блог
                     </a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="#contact">
-                      Contact
+                      Контакты
                     </a>
                   </li>
                 </ul>
-                <a className="btn btn-common" href="https://www.google.com" target="_blank">
+                <a className="btn btn-common" href="#contact">
                   Записаться
                 </a>
               </div>
@@ -87,7 +87,7 @@ function App() {
                       КОНСУЛЬТАЦИИ ПО ПОСТУПЛЕНИЮ <br/>ЗА ГРАНИЦУ
                     </h2>
                     <h4 className="head-subtitle wow fadeInUp" data-wow-delay="0.4s">
-                      Получите список универов, подходящих именно Вам!
+                      Получите список Университетов, подходящих именно Вам!
                     </h4>
                     <div className="header-button wow fadeInUp" data-wow-delay="0.6s">
                       <a href="#services" className="btn btn-common">
@@ -99,7 +99,7 @@ function App() {
                     className="img-thumb wow fadeInUp"
                     data-wow-delay="0.8s"
                   >
-                    <img className="img-fluid" src="assets/img/hero-1.png" alt="" />
+                    <img className="img-fluid" src="assets/img/backpic.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -260,7 +260,7 @@ function App() {
                 Наши преподаватели
               </h2>
               <p>
-                Наша команда состоит из опытных и квалифицированных специалистов, <br/>которые помогут на вашем пути к поступлению!
+                Уже помогли 8261 абитуриенту подобрать Университет и успешно поступить
               </p>
             </div>
             <div className="row">
@@ -452,302 +452,252 @@ function App() {
           </div>
         </section>
         {/* Team Section End */}
-        {/* Services Section Start */}
-        <section id="services" className="section-padding bg-gray">
-          <div className="container">
-            <div className="section-header text-center">
-              <h2 className="section-title wow fadeInDown" data-wow-delay="0.3s">
-                Our Services
-              </h2>
-              <p>
-                A desire to help and empower others between community contributors in
-                technology <br /> began to grow in 2020.
-              </p>
-            </div>
-            <div className="row">
-              {/* Services item */}
-              <div className="col-md-6 col-lg-4 col-xs-12">
-                <div className="services-item wow fadeInRight" data-wow-delay="0.3s">
-                  <div className="icon">
-                    <i className="lni-pencil" />
-                  </div>
-                  <div className="services-content">
-                    <h3>
-                      <a href="#">Content Writing</a>
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde
-                      perspiciatis dicta labore nulla beatae quaerat quia incidunt
-                      laborum aspernatur...
-                    </p>
-                  </div>
-                </div>
-              </div>
-              {/* Services item */}
-              <div className="col-md-6 col-lg-4 col-xs-12">
-                <div className="services-item wow fadeInRight" data-wow-delay="0.6s">
-                  <div className="icon">
-                    <i className="lni-briefcase" />
-                  </div>
-                  <div className="services-content">
-                    <h3>
-                      <a href="#">Digital Marketing</a>
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde
-                      perspiciatis dicta labore nulla beatae quaerat quia incidunt
-                      laborum aspernatur...
-                    </p>
-                  </div>
-                </div>
-              </div>
-              {/* Services item */}
-              <div className="col-md-6 col-lg-4 col-xs-12">
-                <div className="services-item wow fadeInRight" data-wow-delay="0.9s">
-                  <div className="icon">
-                    <i className="lni-cog" />
-                  </div>
-                  <div className="services-content">
-                    <h3>
-                      <a href="#">Web Development</a>
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde
-                      perspiciatis dicta labore nulla beatae quaerat quia incidunt
-                      laborum aspernatur...
-                    </p>
-                  </div>
-                </div>
-              </div>
-              {/* Services item */}
-              <div className="col-md-6 col-lg-4 col-xs-12">
-                <div className="services-item wow fadeInRight" data-wow-delay="1.2s">
-                  <div className="icon">
-                    <i className="lni-mobile" />
-                  </div>
-                  <div className="services-content">
-                    <h3>
-                      <a href="#">IOS &amp; Android</a>
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde
-                      perspiciatis dicta labore nulla beatae quaerat quia incidunt
-                      laborum aspernatur...
-                    </p>
-                  </div>
-                </div>
-              </div>
-              {/* Services item */}
-              <div className="col-md-6 col-lg-4 col-xs-12">
-                <div className="services-item wow fadeInRight" data-wow-delay="1.5s">
-                  <div className="icon">
-                    <i className="lni-layers" />
-                  </div>
-                  <div className="services-content">
-                    <h3>
-                      <a href="#">UI/UX Design</a>
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde
-                      perspiciatis dicta labore nulla beatae quaerat quia incidunt
-                      laborum aspernatur...
-                    </p>
-                  </div>
-                </div>
-              </div>
-              {/* Services item */}
-              <div className="col-md-6 col-lg-4 col-xs-12">
-                <div className="services-item wow fadeInRight" data-wow-delay="1.8s">
-                  <div className="icon">
-                    <i className="lni-rocket" />
-                  </div>
-                  <div className="services-content">
-                    <h3>
-                      <a href="#">Branding &amp; Identity</a>
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde
-                      perspiciatis dicta labore nulla beatae quaerat quia incidunt
-                      laborum aspernatur...
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* Services Section End */}
+        {/*/!* Services Section Start *!/*/}
+        {/*<section id="services" className="section-padding bg-gray">*/}
+        {/*  <div className="container">*/}
+        {/*    <div className="section-header text-center">*/}
+        {/*      <h2 className="section-title wow fadeInDown" data-wow-delay="0.3s">*/}
+        {/*        Our Services*/}
+        {/*      </h2>*/}
+        {/*      <p>*/}
+        {/*        A desire to help and empower others between community contributors in*/}
+        {/*        technology <br /> began to grow in 2020.*/}
+        {/*      </p>*/}
+        {/*    </div>*/}
+        {/*    <div className="row">*/}
+        {/*      /!* Services item *!/*/}
+        {/*      <div className="col-md-6 col-lg-4 col-xs-12">*/}
+        {/*        <div className="services-item wow fadeInRight" data-wow-delay="0.3s">*/}
+        {/*          <div className="icon">*/}
+        {/*            <i className="lni-pencil" />*/}
+        {/*          </div>*/}
+        {/*          <div className="services-content">*/}
+        {/*            <h3>*/}
+        {/*              <a href="#">Content Writing</a>*/}
+        {/*            </h3>*/}
+        {/*            <p>*/}
+        {/*              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde*/}
+        {/*              perspiciatis dicta labore nulla beatae quaerat quia incidunt*/}
+        {/*              laborum aspernatur...*/}
+        {/*            </p>*/}
+        {/*          </div>*/}
+        {/*        </div>*/}
+        {/*      </div>*/}
+        {/*      /!* Services item *!/*/}
+        {/*      <div className="col-md-6 col-lg-4 col-xs-12">*/}
+        {/*        <div className="services-item wow fadeInRight" data-wow-delay="0.6s">*/}
+        {/*          <div className="icon">*/}
+        {/*            <i className="lni-briefcase" />*/}
+        {/*          </div>*/}
+        {/*          <div className="services-content">*/}
+        {/*            <h3>*/}
+        {/*              <a href="#">Digital Marketing</a>*/}
+        {/*            </h3>*/}
+        {/*            <p>*/}
+        {/*              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde*/}
+        {/*              perspiciatis dicta labore nulla beatae quaerat quia incidunt*/}
+        {/*              laborum aspernatur...*/}
+        {/*            </p>*/}
+        {/*          </div>*/}
+        {/*        </div>*/}
+        {/*      </div>*/}
+        {/*      /!* Services item *!/*/}
+        {/*      <div className="col-md-6 col-lg-4 col-xs-12">*/}
+        {/*        <div className="services-item wow fadeInRight" data-wow-delay="0.9s">*/}
+        {/*          <div className="icon">*/}
+        {/*            <i className="lni-cog" />*/}
+        {/*          </div>*/}
+        {/*          <div className="services-content">*/}
+        {/*            <h3>*/}
+        {/*              <a href="#">Web Development</a>*/}
+        {/*            </h3>*/}
+        {/*            <p>*/}
+        {/*              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde*/}
+        {/*              perspiciatis dicta labore nulla beatae quaerat quia incidunt*/}
+        {/*              laborum aspernatur...*/}
+        {/*            </p>*/}
+        {/*          </div>*/}
+        {/*        </div>*/}
+        {/*      </div>*/}
+        {/*      /!* Services item *!/*/}
+        {/*      <div className="col-md-6 col-lg-4 col-xs-12">*/}
+        {/*        <div className="services-item wow fadeInRight" data-wow-delay="1.2s">*/}
+        {/*          <div className="icon">*/}
+        {/*            <i className="lni-mobile" />*/}
+        {/*          </div>*/}
+        {/*          <div className="services-content">*/}
+        {/*            <h3>*/}
+        {/*              <a href="#">IOS &amp; Android</a>*/}
+        {/*            </h3>*/}
+        {/*            <p>*/}
+        {/*              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde*/}
+        {/*              perspiciatis dicta labore nulla beatae quaerat quia incidunt*/}
+        {/*              laborum aspernatur...*/}
+        {/*            </p>*/}
+        {/*          </div>*/}
+        {/*        </div>*/}
+        {/*      </div>*/}
+        {/*      /!* Services item *!/*/}
+        {/*      <div className="col-md-6 col-lg-4 col-xs-12">*/}
+        {/*        <div className="services-item wow fadeInRight" data-wow-delay="1.5s">*/}
+        {/*          <div className="icon">*/}
+        {/*            <i className="lni-layers" />*/}
+        {/*          </div>*/}
+        {/*          <div className="services-content">*/}
+        {/*            <h3>*/}
+        {/*              <a href="#">UI/UX Design</a>*/}
+        {/*            </h3>*/}
+        {/*            <p>*/}
+        {/*              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde*/}
+        {/*              perspiciatis dicta labore nulla beatae quaerat quia incidunt*/}
+        {/*              laborum aspernatur...*/}
+        {/*            </p>*/}
+        {/*          </div>*/}
+        {/*        </div>*/}
+        {/*      </div>*/}
+        {/*      /!* Services item *!/*/}
+        {/*      <div className="col-md-6 col-lg-4 col-xs-12">*/}
+        {/*        <div className="services-item wow fadeInRight" data-wow-delay="1.8s">*/}
+        {/*          <div className="icon">*/}
+        {/*            <i className="lni-rocket" />*/}
+        {/*          </div>*/}
+        {/*          <div className="services-content">*/}
+        {/*            <h3>*/}
+        {/*              <a href="#">Branding &amp; Identity</a>*/}
+        {/*            </h3>*/}
+        {/*            <p>*/}
+        {/*              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde*/}
+        {/*              perspiciatis dicta labore nulla beatae quaerat quia incidunt*/}
+        {/*              laborum aspernatur...*/}
+        {/*            </p>*/}
+        {/*          </div>*/}
+        {/*        </div>*/}
+        {/*      </div>*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
+        {/*</section>*/}
+        {/*/!* Services Section End *!/*/}
         {/* Pricing section Start */}
         <section id="pricing" className="section-padding bg-gray">
           <div className="container">
             <div className="section-header text-center">
-              <h2 className="section-title wow fadeInDown" data-wow-delay="0.3s">
-                Best Pricing
-              </h2>
-              <p>
-                A desire to help and empower others between community contributors in
-                technology <br /> began to grow in 2020.
-              </p>
+              {/*<h2 className="section-title wow fadeInDown" data-wow-delay="0.3s">*/}
+              {/*  Стоимость*/}
+              {/*</h2>*/}
             </div>
             <div className="row">
               <div className="col-lg-4 col-md-6 col-xs-12">
                 <div className="table wow fadeInLeft" data-wow-delay="1.2s">
                   <div className="title">
-                    <h3>Basic</h3>
+                    <h3>Подбор университета</h3>
                   </div>
                   <div className="pricing-header">
                     <p className="price-value">
-                      $12.90<span>/ Month</span>
+                      20 €
                     </p>
                   </div>
                   <ul className="description">
-                    <li>Business Analyzing</li>
-                    <li>24/7 Tech Suport</li>
-                    <li>Operational Excellence</li>
-                    <li>Business Idea Ready</li>
-                    <li>2 Database</li>
-                    <li>Customer Support</li>
+                    <li>Личная консультация с преподавателем</li>
+                    <li>Тестирование по профильным предметам</li>
+                    <li>Short-list университетов под Ваш запрос</li>
+                    <li>Требования к поступающим</li>
+                    <li>Список необходимых документов</li>
                   </ul>
-                  <button className="btn btn-common">Get It</button>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-xs-12 active">
-                <div
-                  className="table wow fadeInUp"
-                  id="active-tb"
-                  data-wow-delay="1.2s"
-                >
-                  <div className="title">
-                    <h3>Profesional</h3>
-                  </div>
-                  <div className="pricing-header">
-                    <p className="price-value">
-                      $49.90<span>/ Month</span>
-                    </p>
-                  </div>
-                  <ul className="description">
-                    <li>Business Analyzing</li>
-                    <li>24/7 Tech Suport</li>
-                    <li>Operational Excellence</li>
-                    <li>Business Idea Ready</li>
-                    <li>2 Database</li>
-                    <li>Customer Support</li>
-                  </ul>
-                  <button className="btn btn-common">Get It</button>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-xs-12">
-                <div className="table wow fadeInRight" data-wow-delay="1.2s">
-                  <div className="title">
-                    <h3>Expert</h3>
-                  </div>
-                  <div className="pricing-header">
-                    <p className="price-value">
-                      $89.90<span>/ Month</span>
-                    </p>
-                  </div>
-                  <ul className="description">
-                    <li>Business Analyzing</li>
-                    <li>24/7 Tech Suport</li>
-                    <li>Operational Excellence</li>
-                    <li>Business Idea Ready</li>
-                    <li>2 Database</li>
-                    <li>Customer Support</li>
-                  </ul>
-                  <button className="btn btn-common">Get It</button>
+                  <button className="btn btn-common">Записаться</button>
                 </div>
               </div>
             </div>
           </div>
         </section>
         {/* Pricing Table Section End */}
-        <div className="skill-area section-padding">
-          <div className="container">
-            <div className="row">
-              <div
-                className="col-lg-6 col-md-12 col-xs-12 wow fadeInLeft"
-                data-wow-delay="0.3s"
-              >
-                <img className="img-fluid" src="assets/img/about/img-1.jpg" alt="" />
-              </div>
-              <div
-                className="col-lg-6 col-md-12 col-xs-12 info wow fadeInRight"
-                data-wow-delay="0.3s"
-              >
-                <div className="site-heading">
-                  <h2 className="section-title">
-                    Our <span>Skill</span>
-                  </h2>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
-                    architecto laudantium dolorem, aut aspernatur modi minima alias
-                    provident obcaecati! Minima odio porro nemo magnam dolore minus
-                    asperiores veniam dolorum est!
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas,
-                    nesciunt possimus quaerat ipsam, corporis architecto aspernatur
-                    non aut! Dolorum consectetur placeat excepturi, perspiciatis sunt.
-                  </p>
-                </div>
-                <div className="skills-section">
-                  {/* Progress Bar Start */}
-                  <div className="progress-box">
-                    <h5>
-                      Strategy &amp; Analysis <span className="pull-right">88%</span>
-                    </h5>
-                    <div className="progress" style={{ opacity: 1, left: 0 }}>
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        data-width={87}
-                        style={{ width: "87%" }}
-                      />
-                    </div>
-                  </div>
-                  <div className="progress-box">
-                    <h5>
-                      Eeconomic growth <span className="pull-right">95%</span>
-                    </h5>
-                    <div className="progress" style={{ opacity: 1, left: 0 }}>
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        data-width={96}
-                        style={{ width: "96%" }}
-                      />
-                    </div>
-                  </div>
-                  <div className="progress-box">
-                    <h5>
-                      Achieves goals <span className="pull-right">70%</span>
-                    </h5>
-                    <div className="progress" style={{ opacity: 1, left: 0 }}>
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        data-width={52}
-                        style={{ width: "52%" }}
-                      />
-                    </div>
-                  </div>
-                  {/* End Progressbar */}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        {/*/!* Skills Section Start*!/*/}
+        {/*<div className="skill-area section-padding">*/}
+        {/*  <div className="container">*/}
+        {/*    <div className="row">*/}
+        {/*      <div*/}
+        {/*        className="col-lg-6 col-md-12 col-xs-12 wow fadeInLeft"*/}
+        {/*        data-wow-delay="0.3s"*/}
+        {/*      >*/}
+        {/*        <img className="img-fluid" src="assets/img/about/img-1.jpg" alt="" />*/}
+        {/*      </div>*/}
+        {/*      <div*/}
+        {/*        className="col-lg-6 col-md-12 col-xs-12 info wow fadeInRight"*/}
+        {/*        data-wow-delay="0.3s"*/}
+        {/*      >*/}
+        {/*        <div className="site-heading">*/}
+        {/*          <h2 className="section-title">*/}
+        {/*            Our <span>Skill</span>*/}
+        {/*          </h2>*/}
+        {/*          <p>*/}
+        {/*            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus*/}
+        {/*            architecto laudantium dolorem, aut aspernatur modi minima alias*/}
+        {/*            provident obcaecati! Minima odio porro nemo magnam dolore minus*/}
+        {/*            asperiores veniam dolorum est!*/}
+        {/*          </p>*/}
+        {/*          <p>*/}
+        {/*            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas,*/}
+        {/*            nesciunt possimus quaerat ipsam, corporis architecto aspernatur*/}
+        {/*            non aut! Dolorum consectetur placeat excepturi, perspiciatis sunt.*/}
+        {/*          </p>*/}
+        {/*        </div>*/}
+        {/*        <div className="skills-section">*/}
+        {/*          /!* Progress Bar Start *!/*/}
+        {/*          <div className="progress-box">*/}
+        {/*            <h5>*/}
+        {/*              Strategy &amp; Analysis <span className="pull-right">88%</span>*/}
+        {/*            </h5>*/}
+        {/*            <div className="progress" style={{ opacity: 1, left: 0 }}>*/}
+        {/*              <div*/}
+        {/*                className="progress-bar"*/}
+        {/*                role="progressbar"*/}
+        {/*                data-width={87}*/}
+        {/*                style={{ width: "87%" }}*/}
+        {/*              />*/}
+        {/*            </div>*/}
+        {/*          </div>*/}
+        {/*          <div className="progress-box">*/}
+        {/*            <h5>*/}
+        {/*              Eeconomic growth <span className="pull-right">95%</span>*/}
+        {/*            </h5>*/}
+        {/*            <div className="progress" style={{ opacity: 1, left: 0 }}>*/}
+        {/*              <div*/}
+        {/*                className="progress-bar"*/}
+        {/*                role="progressbar"*/}
+        {/*                data-width={96}*/}
+        {/*                style={{ width: "96%" }}*/}
+        {/*              />*/}
+        {/*            </div>*/}
+        {/*          </div>*/}
+        {/*          <div className="progress-box">*/}
+        {/*            <h5>*/}
+        {/*              Achieves goals <span className="pull-right">70%</span>*/}
+        {/*            </h5>*/}
+        {/*            <div className="progress" style={{ opacity: 1, left: 0 }}>*/}
+        {/*              <div*/}
+        {/*                className="progress-bar"*/}
+        {/*                role="progressbar"*/}
+        {/*                data-width={52}*/}
+        {/*                style={{ width: "52%" }}*/}
+        {/*              />*/}
+        {/*            </div>*/}
+        {/*          </div>*/}
+        {/*          /!* End Progressbar *!/*/}
+        {/*        </div>*/}
+        {/*      </div>*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
+        {/*</div>*/}
+        {/*/!* Skills Section End*!/*/}
         {/* Portfolio Section */}
         <section id="portfolios" className="section-padding">
           {/* Container Starts */}
           <div className="container">
             <div className="section-header text-center">
               <h2 className="section-title wow fadeInDown" data-wow-delay="0.3s">
-                Our Works
+                Университеты партнеры
               </h2>
               <p>
-                A desire to help and empower others between community contributors in
-                technology <br /> began to grow in 2020.
+                Мы строим партнерскую сеть по всему миру и предлагаем <br/>нашим клиентам широкий выбор Университетов
               </p>
             </div>
             <div className="row">
@@ -758,25 +708,25 @@ function App() {
                     className="filter active btn btn-common btn-effect"
                     data-filter="all"
                   >
-                    All
+                    Все
                   </a>
                   <a
                     className="filter btn btn-common btn-effect"
-                    data-filter=".design"
+                    data-filter=".us"
                   >
-                    Design
+                    США
                   </a>
                   <a
                     className="filter btn btn-common btn-effect"
-                    data-filter=".development"
+                    data-filter=".eur"
                   >
-                    Development
+                    Европа
                   </a>
                   <a
                     className="filter btn btn-common btn-effect"
-                    data-filter=".print"
+                    data-filter=".sng"
                   >
-                    Print
+                    СНГ
                   </a>
                 </div>
                 {/* Portfolio Controller/Buttons Ends*/}
@@ -784,7 +734,7 @@ function App() {
             </div>
             {/* Portfolio Recent Projects */}
             <div id="portfolio" className="row">
-              <div className="col-lg-4 col-md-6 col-xs-12 mix development print">
+              <div className="col-lg-4 col-md-6 col-xs-12 mix eur sng">
                 <div className="portfolio-item">
                   <div className="shot-item">
                     <img src="assets/img/portfolio/img-1.jpg" alt="" />
@@ -806,7 +756,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-xs-12 mix design print">
+              <div className="col-lg-4 col-md-6 col-xs-12 mix us sng">
                 <div className="portfolio-item">
                   <div className="shot-item">
                     <img src="assets/img/portfolio/img-2.jpg" alt="" />
@@ -828,7 +778,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-xs-12 mix development">
+              <div className="col-lg-4 col-md-6 col-xs-12 mix eur">
                 <div className="portfolio-item">
                   <div className="shot-item">
                     <img src="assets/img/portfolio/img-3.jpg" alt="" />
@@ -850,7 +800,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-xs-12 mix development design">
+              <div className="col-lg-4 col-md-6 col-xs-12 mix eur us">
                 <div className="portfolio-item">
                   <div className="shot-item">
                     <img src="assets/img/portfolio/img-4.jpg" alt="" />
@@ -872,7 +822,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-xs-12 mix development">
+              <div className="col-lg-4 col-md-6 col-xs-12 mix eur">
                 <div className="portfolio-item">
                   <div className="shot-item">
                     <img src="assets/img/portfolio/img-5.jpg" alt="" />
@@ -894,7 +844,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-xs-12 mix print design">
+              <div className="col-lg-4 col-md-6 col-xs-12 mix sng us">
                 <div className="portfolio-item">
                   <div className="shot-item">
                     <img src="assets/img/portfolio/img-6.jpg" alt="" />
@@ -1154,15 +1104,6 @@ function App() {
         {/* Clients Section Start */}
         <div id="clients" className="section-padding bg-gray">
           <div className="container">
-            <div className="section-header text-center">
-              <h2 className="section-title wow fadeInDown" data-wow-delay="0.3s">
-                NOTABLE CLIENTS
-              </h2>
-              <p>
-                Over the last 20 years, we have helped and guided organisations to
-                achieve outstanding results
-              </p>
-            </div>
             <div className="row text-align-">
               <div
                 className="col-lg-3 col-md-3 col-xs-12 wow fadeInUp"
@@ -1171,7 +1112,7 @@ function App() {
                 <div className="client-item-wrapper">
                   <img
                     className="img-fluid"
-                    src="assets/img/clients/img1.png"
+                    src="assets/img/clients/CHSlogo.png"
                     alt=""
                   />
                 </div>
@@ -1183,7 +1124,7 @@ function App() {
                 <div className="client-item-wrapper">
                   <img
                     className="img-fluid"
-                    src="assets/img/clients/img2.png"
+                    src="assets/img/clients/logolind.png"
                     alt=""
                   />
                 </div>
@@ -1195,7 +1136,7 @@ function App() {
                 <div className="client-item-wrapper">
                   <img
                     className="img-fluid"
-                    src="assets/img/clients/img3.png"
+                    src="assets/img/clients/logo.svg"
                     alt=""
                   />
                 </div>
@@ -1207,7 +1148,7 @@ function App() {
                 <div className="client-item-wrapper">
                   <img
                     className="img-fluid"
-                    src="assets/img/clients/img4.png"
+                    src="assets/img/clients/logoUEK.png"
                     alt=""
                   />
                 </div>
@@ -1231,9 +1172,9 @@ function App() {
                             className="form-control"
                             id="name"
                             name="name"
-                            placeholder="Name"
-                            required=""
-                            data-error="Please enter your name"
+                            placeholder="Имя"
+                            required
+                            data-error="Пожалуйста напишите ваше имя"
                           />
                           <div className="help-block with-errors" />
                         </div>
@@ -1241,13 +1182,13 @@ function App() {
                       <div className="col-md-6">
                         <div className="form-group">
                           <input
-                            type="text"
+                            type="email"
                             placeholder="Email"
                             id="email"
                             className="form-control"
                             name="email"
-                            required=""
-                            data-error="Please enter your email"
+                            required
+                            data-error="Пожалуйста напишите ваш email"
                           />
                           <div className="help-block with-errors" />
                         </div>
@@ -1256,11 +1197,11 @@ function App() {
                         <div className="form-group">
                           <input
                             type="text"
-                            placeholder="Subject"
+                            placeholder="Предпологаемая страна поступления"
                             id="msg_subject"
                             className="form-control"
                             required=""
-                            data-error="Please enter your subject"
+                            data-error="Пожалуйста напишите ваше пожелания"
                           />
                           <div className="help-block with-errors" />
                         </div>
@@ -1270,9 +1211,9 @@ function App() {
                     <textarea
                       className="form-control"
                       id="message"
-                      placeholder="Your Message"
+                      placeholder="Сообщение"
                       rows={5}
-                      data-error="Write your message"
+                      data-error="Напишите ваше сообщение"
                       required=""
                       defaultValue={""}
                     />
@@ -1284,7 +1225,7 @@ function App() {
                             id="form-submit"
                             type="submit"
                           >
-                            Send Message
+                            Отправить
                           </button>
                           <div id="msgSubmit" className="h3 text-center hidden" />
                           <div className="clearfix" />
@@ -1297,13 +1238,12 @@ function App() {
               <div className="col-md-6 col-lg-6 col-sm-12">
                 <div className="contact-right-area wow fadeIn">
                   <div className="contact-title">
-                    <h1>We're a friendly bunch..</h1>
+                    <h1>Для партнерства</h1>
                     <p>
-                      We create projects for companies and startups with a passion for
-                      quality
+                      Если вы хотите стать нашими партнерами
                     </p>
                   </div>
-                  <h2>Contact Us</h2>
+                  <h2>С нами можно связаться</h2>
                   <div className="contact-right">
                     <div className="single-contact">
                       <div className="contact-icon">
@@ -1316,7 +1256,7 @@ function App() {
                         <i className="lni-envelope" />
                       </div>
                       <p>
-                        <a href="#">Email: contact@stuck.com</a>
+                        <a href="mailto: guidance_counselor@chschool.eu" target='_blank'>Email: guidance_counselor@chschool.eu</a>
                       </p>
                     </div>
                     <div className="single-contact">
@@ -1324,7 +1264,7 @@ function App() {
                         <i className="lni-phone-handset" />
                       </div>
                       <p>
-                        <a href="#">Phone: +84 846 250 592</a>
+                        <a href="callto: +382 67 452 675">Phone: +382 67 452 675</a>
                       </p>
                     </div>
                   </div>
@@ -1361,10 +1301,7 @@ function App() {
               </div>
               <div className="col-lg-4 col-md-5 col-xs-12">
                 <p className="float-right">
-                  Designed and Developed by{" "}
-                  <a href="http://uideck.com" rel="nofollow">
-                    UIdeck
-                  </a>
+                  {" "}
                 </p>
               </div>
             </div>
