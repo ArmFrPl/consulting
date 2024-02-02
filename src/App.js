@@ -257,7 +257,7 @@ function App() {
           <div className="container">
             <div className="section-header text-center">
               <h2 className="section-title wow fadeInDown" data-wow-delay="0.3s">
-                Наши преподаватели
+                Наша команда
               </h2>
               <p>
                 Уже помогли 8261 абитуриенту подобрать Университет и успешно поступить
@@ -581,9 +581,13 @@ function App() {
         <section id="pricing" className="section-padding bg-gray">
           <div className="container">
             <div className="section-header text-center">
-              {/*<h2 className="section-title wow fadeInDown" data-wow-delay="0.3s">*/}
-              {/*  Стоимость*/}
-              {/*</h2>*/}
+              <h2 className="section-title wow fadeInDown" data-wow-delay="0.3s">
+                Best Pricing
+              </h2>
+              <p>
+                A desire to help and empower others between community contributors in
+                technology <br /> began to grow in 2020.
+              </p>
             </div>
             <div className="row">
               <div className="col-lg-4 col-md-6 col-xs-12">
@@ -602,8 +606,54 @@ function App() {
                     <li>Short-list университетов под Ваш запрос</li>
                     <li>Требования к поступающим</li>
                     <li>Список необходимых документов</li>
+                    <li style={{opacity: 0}}>Список необходимых документов</li>
                   </ul>
                   <button className="btn btn-common">Записаться</button>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-xs-12 active">
+                <div
+                  className="table wow fadeInUp"
+                  data-wow-delay="1.2s"
+                >
+                  <div className="title">
+                    <h3>Profesional</h3>
+                  </div>
+                  <div className="pricing-header">
+                    <p className="price-value">
+                      50 €
+                    </p>
+                  </div>
+                  <ul className="description">
+                    <li>Business Analyzing</li>
+                    <li>24/7 Tech Suport</li>
+                    <li>Operational Excellence</li>
+                    <li>Business Idea Ready</li>
+                    <li>2 Database</li>
+                    <li>Customer Support</li>
+                  </ul>
+                  <button className="btn btn-common">Get It</button>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-xs-12">
+                <div className="table wow fadeInRight" data-wow-delay="1.2s">
+                  <div className="title">
+                    <h3>Expert</h3>
+                  </div>
+                  <div className="pricing-header">
+                    <p className="price-value">
+                      80 €
+                    </p>
+                  </div>
+                  <ul className="description">
+                    <li>Business Analyzing</li>
+                    <li>24/7 Tech Suport</li>
+                    <li>Operational Excellence</li>
+                    <li>Business Idea Ready</li>
+                    <li>2 Database</li>
+                    <li>Customer Support</li>
+                  </ul>
+                  <button className="btn btn-common">Get It</button>
                 </div>
               </div>
             </div>
@@ -724,9 +774,9 @@ function App() {
                   </a>
                   <a
                     className="filter btn btn-common btn-effect"
-                    data-filter=".sng"
+                    data-filter=".asia"
                   >
-                    СНГ
+                    Азия
                   </a>
                 </div>
                 {/* Portfolio Controller/Buttons Ends*/}
@@ -734,44 +784,145 @@ function App() {
             </div>
             {/* Portfolio Recent Projects */}
             <div id="portfolio" className="row">
-              <div className="col-lg-4 col-md-6 col-xs-12 mix eur sng">
+              <div className="col-lg-4 col-md-6 col-xs-12 mix eur">
                 <div className="portfolio-item">
                   <div className="shot-item">
-                    <img src="assets/img/portfolio/img-1.jpg" alt="" />
+                    <img src="assets/img/portfolio/siil.jpg" alt="" />
                     <div className="single-content">
                       <div className="fancy-table">
                         <div className="table-cell">
-                          <div className="zoom-icon">
-                            <a
-                              className="lightbox"
-                              href="assets/img/portfolio/img-1.jpg"
-                            >
-                              <i className="lni-eye item-icon" />
-                            </a>
-                          </div>
-                          <a href="#">Creative Design</a>
+                          <a href="https://siil.ch" target='_blank'>
+                            <div className="zoom-icon">
+                              <a
+                                className="lightbox"
+                                href="assets/img/portfolio/siil.jpg"
+                              >
+                                <i className="lni-eye item-icon" />
+                              </a>
+                            </div>
+                            Swiss International Institute Lausanne <br/> онлайн
+                          </a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-xs-12 mix us sng">
+              <div className="col-lg-4 col-md-6 col-xs-12 mix us">
                 <div className="portfolio-item">
                   <div className="shot-item">
-                    <img src="assets/img/portfolio/img-2.jpg" alt="" />
+                    <img src="assets/img/portfolio/BostonCollege.jpg" alt="" />
                     <div className="single-content">
                       <div className="fancy-table">
                         <div className="table-cell">
-                          <div className="zoom-icon">
-                            <a
-                              className="lightbox"
-                              href="assets/img/portfolio/img-2.jpg"
-                            >
-                              <i className="lni-eye item-icon" />
-                            </a>
-                          </div>
-                          <a href="#">Retina Ready</a>
+                          <a href="https://www.bc.edu" target='_blank'>
+                            <div className="zoom-icon">
+                              <a
+                                className="lightbox"
+                                href="assets/img/portfolio/BostonCollege.jpg"
+                              >
+                                <i className="lni-eye item-icon" />
+                              </a>
+                            </div>
+                            Boston College <br/> США, Массачусетс
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-xs-12 mix asia">
+                <div className="portfolio-item">
+                  <div className="shot-item">
+                    <img src="assets/img/portfolio/Shanghai.jpg" alt="" />
+                    <div className="single-content">
+                      <div className="fancy-table">
+                        <div className="table-cell">
+                          <a href="https://apply.shu.edu.cn" target='_blank'>
+                            <div className="zoom-icon">
+                              <a
+                                className="lightbox"
+                                href="assets/img/portfolio/Shanghai.jpg"
+                              >
+                                <i className="lni-eye item-icon" />
+                              </a>
+                            </div>
+                            Shanghai University <br/> Китай
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-xs-12 mix us">
+                <div className="portfolio-item">
+                  <div className="shot-item">
+                    <img src="assets/img/portfolio/baptistcollege.jpg" alt="" />
+                    <div className="single-content">
+                      <div className="fancy-table">
+                        <div className="table-cell">
+                          <a href="https://nebcvt.org" target='_blank'>
+                            <div className="zoom-icon">
+                              <a
+                                className="lightbox"
+                                href="assets/img/portfolio/baptistcollege.jpg"
+                              >
+                                <i className="lni-eye item-icon" />
+                              </a>
+                            </div>
+                            Northeastern Baptist College <br/> США, Вермонт
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-4 col-md-6 col-xs-12 mix eur">
+                <div className="portfolio-item">
+                  <div className="shot-item">
+                    <img src="assets/img/portfolio/stasbourg.jpg" alt="" />
+                    <div className="single-content">
+                      <div className="fancy-table">
+                        <div className="table-cell">
+                          <a href="https://en.unistra.fr" target='_blank'>
+                            <div className="zoom-icon">
+                              <a
+                                className="lightbox"
+                                href="assets/img/portfolio/stasbourg.jpg"
+                              >
+                                <i className="lni-eye item-icon" />
+                              </a>
+                            </div>
+                            University of Strasbourg  <br/> Франция
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-xs-12 mix us">
+                <div className="portfolio-item">
+                  <div className="shot-item">
+                    <img src="assets/img/portfolio/Delaware.jpeg" alt="" />
+                    <div className="single-content">
+                      <div className="fancy-table">
+                        <div className="table-cell">
+                          <a href="https://www.udel.edu" target='_blank'>
+                            <div className="zoom-icon">
+                              <a
+                                className="lightbox"
+                                href="assets/img/portfolio/Delaware.jpeg"
+                              >
+                                <i className="lni-eye item-icon" />
+                              </a>
+                            </div>
+                            University of Delaware <br/> США, Делавэр
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -781,41 +932,45 @@ function App() {
               <div className="col-lg-4 col-md-6 col-xs-12 mix eur">
                 <div className="portfolio-item">
                   <div className="shot-item">
-                    <img src="assets/img/portfolio/img-3.jpg" alt="" />
+                    <img src="assets/img/portfolio/Krakow.jpg" alt="" />
                     <div className="single-content">
                       <div className="fancy-table">
                         <div className="table-cell">
-                          <div className="zoom-icon">
-                            <a
-                              className="lightbox"
-                              href="assets/img/portfolio/img-3.jpg"
-                            >
-                              <i className="lni-eye item-icon" />
-                            </a>
-                          </div>
-                          <a href="#">Responsive</a>
+                          <a href="https://uek.krakow.pl" target='_blank'>
+                            <div className="zoom-icon">
+                              <a
+                                className="lightbox"
+                                href="assets/img/portfolio/Krakow.jpg"
+                              >
+                                <i className="lni-eye item-icon" />
+                              </a>
+                            </div>
+                            Krakow University of Economics <br/> Польша
+                          </a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-xs-12 mix eur us">
+              <div className="col-lg-4 col-md-6 col-xs-12 mix asia">
                 <div className="portfolio-item">
                   <div className="shot-item">
-                    <img src="assets/img/portfolio/img-4.jpg" alt="" />
+                    <img src="assets/img/portfolio/Seoul.jpg" alt="" />
                     <div className="single-content">
                       <div className="fancy-table">
                         <div className="table-cell">
-                          <div className="zoom-icon">
-                            <a
-                              className="lightbox"
-                              href="assets/img/portfolio/img-4.jpg"
-                            >
-                              <i className="lni-eye item-icon" />
-                            </a>
-                          </div>
-                          <a href="#">Well Documented</a>
+                          <a href="https://english.uos.ac.kr" target='_blank'>
+                            <div className="zoom-icon">
+                              <a
+                                className="lightbox"
+                                href="assets/img/portfolio/Seoul.jpg"
+                              >
+                                <i className="lni-eye item-icon" />
+                              </a>
+                            </div>
+                            University of Seoul <br/> Южная Корея
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -825,41 +980,21 @@ function App() {
               <div className="col-lg-4 col-md-6 col-xs-12 mix eur">
                 <div className="portfolio-item">
                   <div className="shot-item">
-                    <img src="assets/img/portfolio/img-5.jpg" alt="" />
+                    <img src="assets/img/portfolio/Munchen.jpg" alt="" />
                     <div className="single-content">
                       <div className="fancy-table">
                         <div className="table-cell">
-                          <div className="zoom-icon">
-                            <a
-                              className="lightbox"
-                              href="assets/img/portfolio/img-5.jpg"
-                            >
-                              <i className="lni-eye item-icon" />
-                            </a>
-                          </div>
-                          <a href="#">Customer Support</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-xs-12 mix sng us">
-                <div className="portfolio-item">
-                  <div className="shot-item">
-                    <img src="assets/img/portfolio/img-6.jpg" alt="" />
-                    <div className="single-content">
-                      <div className="fancy-table">
-                        <div className="table-cell">
-                          <div className="zoom-icon">
-                            <a
-                              className="lightbox"
-                              href="assets/img/portfolio/img-6.jpg"
-                            >
-                              <i className="lni-eye item-icon" />
-                            </a>
-                          </div>
-                          <a href="#">User Friendly</a>
+                          <a href="https://www.lmu.de/en/" target='_blank'>
+                            <div className="zoom-icon">
+                              <a
+                                className="lightbox"
+                                href="assets/img/portfolio/Munchen.jpg"
+                              >
+                                <i className="lni-eye item-icon" />
+                              </a>
+                            </div>
+                            LMU Munchen <br/> Германия
+                          </a>
                         </div>
                       </div>
                     </div>

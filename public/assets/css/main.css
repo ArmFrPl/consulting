@@ -1050,8 +1050,8 @@ hr {
 }
 
 .shot-item img {
-  width: 100%;
-  height: 100%;
+  width: 400px;
+  height: 250px;
   transition: all .6s ease;
   -moz-transition: all .6s ease;
   -webkit-transition: all .6s ease;
@@ -1108,6 +1108,12 @@ hr {
   font-size: 20px;
   font-weight: 600;
   font-family: 'Titillium Web', sans-serif;
+  width: 100%;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .shot-item:hover img {
@@ -1145,14 +1151,6 @@ hr {
   font-size: 18px;
   margin-bottom: 0px;
 }
-#pricing .row{
-  justify-content: center;
-}
-
-#pricing .row > div{
-  flex: 50% 0 0;
-  max-width: 50%;
-}
 
 #pricing .table {
   margin-top: 15px;
@@ -1188,8 +1186,8 @@ hr {
   position: relative;
   text-align: center;
   font-weight: 700;
-  padding: 30px 0 10px 0;
-  /*border-bottom: 1px solid #f1f1f1;*/
+  padding: 30px 0;
+  border-bottom: 1px solid #f1f1f1;
 }
 
 #pricing .table .pricing-header .price-value sup {
@@ -1210,10 +1208,10 @@ hr {
 }
 
 #pricing .table .description li {
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 400;
   color: #797d84;
-  padding-bottom: 35px;
+  padding-bottom: 15px;
 }
 
 #pricing .table:hover {
