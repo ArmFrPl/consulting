@@ -617,46 +617,53 @@ function App() {
                   data-wow-delay="1.2s"
                 >
                   <div className="title">
-                    <h3>Profesional</h3>
+                    <h3>Частичное сопровождение</h3>
                   </div>
                   <div className="pricing-header">
                     <p className="price-value">
-                      50 €
+                      300 €
                     </p>
                   </div>
                   <ul className="description">
-                    <li>Business Analyzing</li>
-                    <li>24/7 Tech Suport</li>
-                    <li>Operational Excellence</li>
-                    <li>Business Idea Ready</li>
-                    <li>2 Database</li>
-                    <li>Customer Support</li>
+                    <li>Личная консультация с преподавателем</li>
+                    <li>Тестирование по профильным предметам</li>
+                    <li>Short-list университетов под Ваш запрос</li>
+                    <li>Требования к поступающим</li>
+                    <li>Список необходимых документов</li>
+                    <li>Подготовка документов</li>
+                    <li>Подготовка к тестированию университета</li>
+                    <li>Первичное общение с Университетом</li>
                   </ul>
-                  <button className="btn btn-common">Get It</button>
+                  <button className="btn btn-common">Записаться</button>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-xs-12">
                 <div className="table wow fadeInRight" data-wow-delay="1.2s">
                   <div className="title">
-                    <h3>Expert</h3>
+                    <h3>Полное сопровождение</h3>
                   </div>
                   <div className="pricing-header">
                     <p className="price-value">
-                      80 €
+                      700 €
                     </p>
                   </div>
                   <ul className="description">
-                    <li>Business Analyzing</li>
-                    <li>24/7 Tech Suport</li>
-                    <li>Operational Excellence</li>
-                    <li>Business Idea Ready</li>
-                    <li>2 Database</li>
-                    <li>Customer Support</li>
+                    <li>Личная консультация с преподавателем</li>
+                    <li>Тестирование по профильным предметам</li>
+                    <li>Short-list университетов под Ваш запрос</li>
+                    <li>Требования к поступающим</li>
+                    <li>Список необходимых документов</li>
+                    <li>Подготовка документов</li>
+                    <li>Подготовка к тестированию университета</li>
+                    <li>Подача документов</li>
+                    <li>Переговоры с Университетом</li>
+                    <li>Визовое сопровождение</li>
                   </ul>
-                  <button className="btn btn-common">Get It</button>
+                  <button className="btn btn-common">Записаться</button>
                 </div>
               </div>
             </div>
+            <p>*Центр не гарантирует поступление абитуриента в конкретный университет, поскольку это зависит от многих политических и личностных особенностей, а также от уникальных требований университета</p>
           </div>
         </section>
         {/* Pricing Table Section End */}
