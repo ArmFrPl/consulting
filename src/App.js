@@ -582,12 +582,8 @@ function App() {
           <div className="container">
             <div className="section-header text-center">
               <h2 className="section-title wow fadeInDown" data-wow-delay="0.3s">
-                Best Pricing
+                Стоимость
               </h2>
-              <p>
-                A desire to help and empower others between community contributors in
-                technology <br /> began to grow in 2020.
-              </p>
             </div>
             <div className="row">
               <div className="col-lg-4 col-md-6 col-xs-12">
@@ -606,7 +602,11 @@ function App() {
                     <li>Short-list университетов под Ваш запрос</li>
                     <li>Требования к поступающим</li>
                     <li>Список необходимых документов</li>
-                    <li style={{opacity: 0}}>Список необходимых документов</li>
+                    <li className='notIncluded'>Подготовка документов</li>
+                    <li className='notIncluded'>Подготовка к тестированию университета</li>
+                    <li className='notIncluded'>Переговоры с Университетом</li>
+                    <li className='notIncluded'>Подача документов</li>
+                    <li className='notIncluded'>Визовое сопровождение</li>
                   </ul>
                   <button className="btn btn-common">Записаться</button>
                 </div>
@@ -632,7 +632,10 @@ function App() {
                     <li>Список необходимых документов</li>
                     <li>Подготовка документов</li>
                     <li>Подготовка к тестированию университета</li>
-                    <li>Первичное общение с Университетом</li>
+                    <li>Переговоры с Университетом</li>
+                    <li className='notIncluded'>Подача документов</li>
+                    <li className='notIncluded'>Визовое сопровождение</li>
+
                   </ul>
                   <button className="btn btn-common">Записаться</button>
                 </div>
@@ -655,15 +658,15 @@ function App() {
                     <li>Список необходимых документов</li>
                     <li>Подготовка документов</li>
                     <li>Подготовка к тестированию университета</li>
-                    <li>Подача документов</li>
                     <li>Переговоры с Университетом</li>
+                    <li>Подача документов</li>
                     <li>Визовое сопровождение</li>
                   </ul>
                   <button className="btn btn-common">Записаться</button>
                 </div>
               </div>
             </div>
-            <p>*Центр не гарантирует поступление абитуриента в конкретный университет, поскольку это зависит от многих политических и личностных особенностей, а также от уникальных требований университета</p>
+            <p style={{fontSize: '12px'}}>*Центр не гарантирует поступление абитуриента в конкретный университет, поскольку это зависит от многих политических и личностных особенностей, а также от уникальных требований университета</p>
           </div>
         </section>
         {/* Pricing Table Section End */}
@@ -1391,14 +1394,14 @@ function App() {
                       <div className="contact-icon">
                         <i className="lni-map-marker" />
                       </div>
-                      <p>ADDRESS: 28 Green Tower, New York City, USA</p>
+                      <p>186 ALEWIFE BROOK PKWY #1116, CAMBRIDGE, MA, 02138, USA</p>
                     </div>
                     <div className="single-contact">
                       <div className="contact-icon">
                         <i className="lni-envelope" />
                       </div>
                       <p>
-                        <a href="mailto: guidance_counselor@chschool.eu" target='_blank'>Email: guidance_counselor@chschool.eu</a>
+                        <a href="mailto: info@eoed.eu" target='_blank'>Email: info@eoed.eu</a>
                       </p>
                     </div>
                     <div className="single-contact">

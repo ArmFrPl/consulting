@@ -473,6 +473,10 @@ hr {
   height: 80px;
 }
 
+.navbar .nav-link > img{
+  width: 130px;
+}
+
 .navbar-brand {
   position: relative;
   padding: 0px;
@@ -1210,8 +1214,12 @@ hr {
 #pricing .table .description li {
   font-size: 14px;
   font-weight: 400;
-  color: #797d84;
+  color: #36383C;
   padding-bottom: 15px;
+}
+
+#pricing .table .description .notIncluded {
+  color: #d7d7d7;
 }
 
 #pricing .table:hover {
@@ -1952,10 +1960,13 @@ textarea {
   background: #34363a;
   padding: 15px;
 }
-
+.copyright .container .row{
+  align-items: center;
+}
 
 .copyright .footer-logo img {
-  width: 80%;
+  width: 40%;
+  filter: invert(1);
 }
 
 .copyright p {
