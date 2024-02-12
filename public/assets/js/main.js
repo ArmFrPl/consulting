@@ -2,7 +2,7 @@
 
   "use strict";  
 
-  $(window).on('load', function() {
+  $(document).ready(function() {
 
   /* 
    MixitUp
